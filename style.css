@@ -1,14 +1,19 @@
 body {
-    background-color: #000000;
+    background-color: #111111;
 }
 
 h1 {
     color: #ffffff;
     text-align: center;
-    font-family: Arial;
+    font-family: system-ui;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: system-ui;
 }
 
 p {
     color: #ffffff;
-    font-family: Arial;
+    font-family: system-ui;
 }
