@@ -1,12 +1,11 @@
 .texto {
     color: #ffffff;
-    font-family: system-ui;
+    font-family: sans-serif;
 }
 
 img {
     display: block;
     margin:auto;
-    width:2%;
 }
 
 body {
@@ -24,4 +23,15 @@ h2 {
 
 p{
     font-size:100%;
+    margin: 15px;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #ffffff;
+    text-decoration: underline;
 }
