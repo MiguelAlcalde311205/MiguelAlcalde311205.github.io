@@ -1,17 +1,13 @@
-img {
+#contact {
     display: block;
     margin:auto;
+    height: 32px;
 }
 
 body {
     background-color: #000000;
     color: #ffffff;
     font-family: sans-serif;
-}
-
-h1 {
-    text-align: center;
-    font-size:400%;
 }
 
 p{
@@ -29,16 +25,28 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
-.main {
-    background-color: #111111;
-    padding: 15px 20px;
+#title {
+    text-align: center;
+    font-size:600%;
+    margin: 20px;
 }
 
-#h2Main {
+.main {
+    background-color: #111111;
+    padding: 15px 20px 50px 15px;
+    margin: 20px;
+}
+
+#h1Main {
     font-size:200%;
     margin:2px;
 }
 
 .aMain {
     font-size:110%;
+}
+
+@media screen and (max-width: 800px) { /*for screens smaller than 800px wide*/
+    #title {font-size: 300%;}
+    #h1Main {text-align: center;}
 }
