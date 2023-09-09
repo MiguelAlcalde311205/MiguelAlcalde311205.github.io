@@ -33,7 +33,8 @@ a:hover, a:active {
 
 .main {
     background-color: #111111;
-    padding: 15px 20px;
+    padding: 15px 20px 50px 15px;
+    margin: 20px;
 }
 
 #h1Main {
@@ -43,4 +44,9 @@ a:hover, a:active {
 
 .aMain {
     font-size:110%;
+}
+
+@media screen and (max-width: 800px) { /*for screens smaller than 800px wide*/
+    #title {font-size: 300%;}
+    #h1Main {text-align: center;}
 }
