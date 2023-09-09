@@ -1,24 +1,17 @@
-.texto {
-    color: #ffffff;
-    font-family: sans-serif;
-}
-
 img {
     display: block;
     margin:auto;
 }
 
 body {
-    background-color: #111111;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: sans-serif;
 }
 
 h1 {
     text-align: center;
     font-size:400%;
-}
-
-h2 {
-    font-size:200%;
 }
 
 p{
@@ -34,4 +27,18 @@ a:link, a:visited {
 a:hover, a:active {
     color: #ffffff;
     text-decoration: underline;
+}
+
+.main {
+    background-color: #111111;
+    padding: 15px 20px;
+}
+
+#h2Main {
+    font-size:200%;
+    margin:2px;
+}
+
+.aMain {
+    font-size:110%;
 }
