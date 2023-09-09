@@ -1,17 +1,13 @@
-img {
+#contact {
     display: block;
     margin:auto;
+    height: 32px;
 }
 
 body {
     background-color: #000000;
     color: #ffffff;
     font-family: sans-serif;
-}
-
-h1 {
-    text-align: center;
-    font-size:400%;
 }
 
 p{
@@ -29,12 +25,18 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
+#title {
+    text-align: center;
+    font-size:600%;
+    margin: 20px;
+}
+
 .main {
     background-color: #111111;
     padding: 15px 20px;
 }
 
-#h2Main {
+#h1Main {
     font-size:200%;
     margin:2px;
 }
